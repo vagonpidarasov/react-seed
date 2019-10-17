@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button matches snapshot with default args 1`] = `
+<div>
+  <div>
+    Click Me
+  </div>
+</div>
+`;
