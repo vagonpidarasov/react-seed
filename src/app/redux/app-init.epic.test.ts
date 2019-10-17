@@ -1,8 +1,7 @@
 import configureMockStore from 'redux-mock-store';
 import {createEpicMiddleware} from 'redux-observable';
+import {AppInit, classActionMiddleware} from 'yet-another-redux-helpers';
 import {AppInitEpic$} from './app-init.epic';
-import {AppInit} from './app-init.action';
-import {classActionMiddleware} from './class-action-middleware';
 
 describe('AppInitEpic$', () => {
     it('should emit INIT action', () => {

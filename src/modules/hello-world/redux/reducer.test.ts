@@ -1,10 +1,10 @@
-import {ReducerTestSuite} from 'src/modules/redux/reducer-test-suite';
-import {VehicleState} from './state';
+import {ReducerTestSuite} from 'yet-another-redux-helpers';
+import {HelloWorldState} from './state';
 import {reducer} from './reducer';
-import {SetFreeNowVehicles} from './actions';
+import {SetContent} from './actions';
 
-describe('vehicle reducer', ReducerTestSuite(
+describe('hello world reducer', ReducerTestSuite(
     reducer,
-    new VehicleState(),
-    new SetFreeNowVehicles([]),
+    new HelloWorldState(),
+    new SetContent('hello world'),
 ));

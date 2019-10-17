@@ -1,5 +1,5 @@
 import {createStore, applyMiddleware, Store} from 'redux';
-import {classActionMiddleware} from './class-action-middleware';
+import {classActionMiddleware} from 'yet-another-redux-helpers';
 
 import {AppState} from './state';
 import {AppReducer} from './reducer';

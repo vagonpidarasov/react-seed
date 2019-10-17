@@ -1,3 +1,3 @@
 export class HelloWorldState {
-    content:string;
+    content:string = null;
 }

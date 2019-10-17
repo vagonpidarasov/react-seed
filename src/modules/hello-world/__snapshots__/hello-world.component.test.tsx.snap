@@ -3,7 +3,7 @@
 exports[`Button matches snapshot with default args 1`] = `
 <div>
   <div>
-    Click Me
+    hello world
   </div>
 </div>
 `;
