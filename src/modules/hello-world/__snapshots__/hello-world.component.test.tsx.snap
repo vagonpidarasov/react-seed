@@ -1,8 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Button matches snapshot with default args 1`] = `
+exports[`HelloWorldComponent matches snapshot 1`] = `
+.emotion-0 {
+  padding: 1em;
+}
+
 <div>
-  <div>
+  <div
+    class="hello-world emotion-0"
+    data-test-id="hello-world"
+  >
     hello world
   </div>
 </div>

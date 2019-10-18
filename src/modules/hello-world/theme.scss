@@ -1,4 +1,7 @@
 $color: 000 !default;
+$background-color: transparent !default;
+
 .hello-world {
     color: $color;
+    background-color: $background-color;
 }

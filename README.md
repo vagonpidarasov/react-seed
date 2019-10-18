@@ -19,3 +19,4 @@ This is seed project for react apps.
 - `storybook` for testing component in isolation
 - `docker` for ci/cd purposes
 - `sass` with support of [modules](https://css-tricks.com/introducing-sass-modules/)
+- `emotion` for css-in-js

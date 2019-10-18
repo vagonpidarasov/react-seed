@@ -16,5 +16,8 @@ module.exports = {
     moduleNameMapper: {
         '\\.(css|scss)$': '<rootDir>/.jest/style-mock.js',
         'src/(.*)$': '<rootDir>/src/$1',
-    }
+    },
+    snapshotSerializers: [
+        'jest-emotion'
+    ],
 };
