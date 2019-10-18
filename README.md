@@ -18,3 +18,4 @@ This is seed project for react apps.
 - `cypress` for e2e and integration testing
 - `storybook` for testing component in isolation
 - `docker` for ci/cd purposes
+- `sass` with support of [modules](https://css-tricks.com/introducing-sass-modules/)

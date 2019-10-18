@@ -73,6 +73,7 @@
     "redux-observable": "^1.2.0",
     "rimraf": "^3.0.0",
     "rxjs": "^6.5.3",
+    "sass": "1.23",
     "sass-loader": "^8.0.0",
     "style-loader": "^1.0.0",
     "ts-jest": "^24.1.0",
