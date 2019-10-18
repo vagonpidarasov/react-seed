@@ -1,15 +1,15 @@
 ## overview 
-This is seed project for react apps.
+Seed project for your react app.
 
 ## npm scripts
-- `npm start` starts webpack dev server and runs the app with accordion being rendered
+- `npm start` starts webpack dev server and runs the app
 - `npm test` runs linter, unit and integration tests
 - `npm run build` builds prod and dev versions of the app
 - `npm run storybook` runs storybook
-- `npm run cypress` open cypress where you can selectively run integration tests
 
-## technology stack
-- `react` for 
+## tech stack
+- `react`
+- `redux`
 - `rxjs` for stream management
 - `webpack` for module bundling
 - `typescript` for javascript with types
@@ -18,5 +18,5 @@ This is seed project for react apps.
 - `cypress` for e2e and integration testing
 - `storybook` for testing component in isolation
 - `docker` for ci/cd purposes
-- `sass` with support of [modules](https://css-tricks.com/introducing-sass-modules/)
+- `sass` for advanced css with [modules](https://css-tricks.com/introducing-sass-modules/)
 - `emotion` for css-in-js
