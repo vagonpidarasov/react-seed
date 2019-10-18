@@ -1,4 +1,6 @@
-@use './modules/hello-world/theme.scss' with ($color: rgba(0,0,0,0.8));
+@use './modules/hello-world/theme.scss' with (
+    $color: rgba(0,0,0,0.8),
+);
 
 @import '~bootstrap/dist/css/bootstrap-reboot.css';
 @import '~typeface-roboto/index.css';

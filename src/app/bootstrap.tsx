@@ -1,7 +1,7 @@
-import * as React from 'react';
+import React from 'react';
 import {render} from 'react-dom';
 import {AppComponent} from './app.component';
 
 export function bootstrap():void {
-    render(<AppComponent />, document.getElementById('app-container'));
+    render(<AppComponent/>, document.getElementById('app-container'));
 }
