@@ -8,6 +8,7 @@ import {ResolveContent, ResolveContentSuccess, SetContent} from './actions';
 describe('hello world epics', () => {
     const dependencies = {
         HelloWorldRepository: {
+            // eslint-disable-next-line @typescript-eslint/explicit-function-return-type
             getContent: () => of('content'),
         },
     };

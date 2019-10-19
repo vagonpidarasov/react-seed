@@ -15,6 +15,7 @@ export class ResolveContentSuccess implements Action {
 export class ResolveContentFail implements Action {
     static type = RESOLVE_CONTENT_FAIL;
     readonly type = RESOLVE_CONTENT_FAIL;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     constructor(public payload:any) {}
 }
 

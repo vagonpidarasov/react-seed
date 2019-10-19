@@ -8,7 +8,7 @@ export class HelloWorldRepositoryHTTP implements HelloWorldRepository {
     constructor(private baseApiUrl:string) {}
     getContent():Observable<string> {
         return ajax(`${this.baseApiUrl}/hello-world`).pipe(
-            map((response:AjaxResponse) => <HelloWorldResponse>response.response),
+            map((response:AjaxResponse) => response.response),
             map((response:HelloWorldResponse) => response.payload),
         );
     }
